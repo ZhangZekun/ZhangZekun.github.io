@@ -1,37 +1,6 @@
-## Welcome to GitHub Pages
+## 博客主要板块
 
-You can use the [editor on GitHub](https://github.com/ZhangZekun/ZhangZekun.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+博客主要分为三个板块，分别是计算机图形学CG，虚幻引擎UnrealEngine，Ogre引擎。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+因为作者水平有限，博客难免会有错漏，还请各位批判性地看博客~
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ZhangZekun/ZhangZekun.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
