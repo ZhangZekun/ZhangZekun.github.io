@@ -3,31 +3,35 @@
   <head>
     <title>{{ page.title }}</title>
     
+    <link rel="stylesheet" type="text/css" href="/assets/css/poole.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/syntax.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
-  
   </head>
 
 
-  <body>
-    <nav>
-<ul>
-  {% for item in site.data.navigation %}
-    <li><a href="{{ item.link }}">{{ item.name }}</a></li>
-  {% endfor %}
-</ul>
-    </nav>
-<div class="container">
+<body>
+	<div>
+		<nav>
+			<ul>
+			  {% for item in site.data.navigation %}
+				<li><a href="{{ item.link }}">{{ item.name }}</a></li>
+			  {% endfor %}
+			</ul>
+		</nav>
 
-  {{ content }}
+		<div class="container">
 
-</div>
-  
-  <footer>
-   <ul>
-   <li><a href="mailto:13829062426@163.com">email</a></li>
-   <li><a href="https://github.com/ZhangZekun">github.com/ZhangZekun</a></li>
-   </ul>
-  </footer>
-  </body>
+		  {{ content }}
+
+		</div>
+		  
+		<footer>
+		   <ul>
+			   <li><a href="mailto:13829062426@163.com">email</a></li>
+			   <li><a href="https://github.com/ZhangZekun">github.com/ZhangZekun</a></li>
+		   </ul>
+		</footer>
+	</div>
+</body>
 
 </html>
