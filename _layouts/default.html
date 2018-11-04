@@ -3,7 +3,7 @@
   <head>
     <title>{{ page.title }}</title>
     
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
   
   </head>
 
@@ -11,9 +11,9 @@
   <body>
     <nav>
 <ul>
-<li><a href="/">Home</a></li>
-<li><a href="/about">About</a></li>
-<li><a href="/blogs">Blog</a></li>
+  {% for item in site.data.navigation %}
+    <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+  {% endfor %}
 </ul>
     </nav>
 <div class="container">
