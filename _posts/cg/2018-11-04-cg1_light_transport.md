@@ -2,6 +2,7 @@
 layout: post
 date: 2018-11-04
 title: 光线传播算法和光线追踪技术简介
+description: 对Whitted Light-Transport Algorithm和光线追踪技术的简单介绍，以及自己对该算法的一点看法。
 categories: [cg]
 ---
 
