@@ -1,7 +1,5 @@
 ---
-
 layout: post
-title: "Hank Quinlan, Horrible Cop, Launches Site"
 date: 2014-04-31
 
 ---
@@ -85,7 +83,7 @@ date: 2014-04-31
 
 3. 获取可视点的颜色信息。
 
-   ![](../../images/cg1_1.png)
+   ![](/../../blogImages/cg1_1.png)
 
    根据可视点所在表面材质的不同，要分三种情况进行处理。
 
